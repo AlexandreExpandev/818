@@ -1,5 +1,7 @@
+import { GreetingResponse } from '../../types';
+
 export interface UseGreetingReturn {
-  message: string | undefined;
+  data: GreetingResponse | undefined;
   isLoading: boolean;
   error: Error | null;
   isSuccess: boolean;
